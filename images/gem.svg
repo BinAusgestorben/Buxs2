@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="475.0724 241.6818 16.2298 16.6364" width="16.23" height="16.636" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.2859630584716795, 0, 0, 0.9999999999999999, 459.6408386230469, 229)" style="">
+    <path d="M18.3103 12.6818L24.6207 21L18.3103 29.3181L12 21L18.3103 12.6818Z" style="fill: rgb(33, 46, 186);"/>
+    <path d="M15.8833 21L18.3103 12.6818L12 21L18.3103 29.3181L15.8833 21Z" style="fill: rgb(44, 75, 212);"/>
+    <path d="M20.7374 21L18.3104 12.6818L24.6207 21L18.3104 29.3182L20.7374 21Z" style="fill: rgb(24, 41, 153);"/>
+    <path d="M24.6207 20.9044H12L18.3103 29.3182L24.6207 20.9044Z" fill="black" fill-opacity="0.12" style=""/>
+    <g style="mix-blend-mode:overlay" opacity="0.62">
+      <path d="M18.3103 12.6818L24.6207 21L18.3103 29.3181L12 21L18.3103 12.6818Z" fill="#6300B0" style=""/>
+    </g>
+    <g style="mix-blend-mode:overlay" opacity="0.62">
+      <path d="M18.3103 12.6818L24.6207 21L18.3103 29.3181L12 21L18.3103 12.6818Z" fill="white"/>
+    </g>
+    <g style="mix-blend-mode:overlay" opacity="0.32">
+      <path d="M18.3103 12.6818L24.6207 21L18.3103 29.3181L12 21L18.3103 12.6818Z" fill="white"/>
+    </g>
+  </g>
+</svg>
