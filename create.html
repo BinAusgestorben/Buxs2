@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="cases_data.js"></script>
+</head>
+<body class="bodyessential">
+    <div id="__next">
+
+
+
+        <div id="innerApp" class="innerApp">
+
+            <header class="smallheader">
+                <a href="/">
+                    <video autoplay muted loop playsinline class="headervid" style="filter: brightness(1) contrast(1) saturate(1) hue-rotate(-50.4deg);">
+                        <source src="/videos/gemspin.mov" type="video/mp4; codecs=&quot;hvc1&quot;">
+                        <source src="/videos/gemspin.webm" type="video/webm">
+                    </video>
+                </a>
+                <button id="headersigninbutton" class="headersignin" type="button">Sign In</button>
+                <div class="smallnavtrigger">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+            </header>
+            <header class="bigheader">
+                <div class="biglogo">
+                    <div class="biglogocontainer">
+                        <a class="biglogolink" href="/">
+                            <span class="bigBuxs">BUXS</span>
+                            <video autoplay muted loop playsinline class="biglogovideo" style="filter: brightness(1) contrast(1) saturate(1) hue-rotate(-50.4deg);">
+                                <source src="/videos/gemspin.mov" type="video/mp4; codecs=&quot;hvc1&quot;">
+                                <source src="/videos/gemspin.webm" type="video/webm">
+                            </video>
+                        </a>
+                    </div>
+                </div>
+                <div class="bignavbar">
+                    <div class="bignavbarcontainer">
+                        <div class="bignavbarsplitter" id="bignavbarsplitter">
+                            <div class="bignavbarleft">
+                                <a href="/">
+                                    <button type="button" class="bignavhomebutton">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M208 448V320h96v128h97.6V256H464L256 64 48 256h62.4v192z"></path>
+                                        </svg>
+                                    </button>
+                                </a>
+                                <div id="gamesdropdown" class="gamesdropdown">
+                                    <div class="gamesdropdownbuttoncontainer">
+                                        <button id="gamesdropdownbutton" class="gamesdropdownbutton" type="button">
+                                            Games
+                                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 15 15" height="1em" width="1em" class="gamesdropdownsvg" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.18179 6.18181C4.35753 6.00608 4.64245 6.00608 4.81819 6.18181L7.49999 8.86362L10.1818 6.18181C10.3575 6.00608 10.6424 6.00608 10.8182 6.18181C10.9939 6.35755 10.9939 6.64247 10.8182 6.81821L7.81819 9.81821C7.73379 9.9026 7.61934 9.95001 7.49999 9.95001C7.38064 9.95001 7.26618 9.9026 7.18179 9.81821L4.18179 6.81821C4.00605 6.64247 4.00605 6.35755 4.18179 6.18181Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></div>
+                            </div>
+                            <div class="bignavbarright" id="bignavbarrightnotlogged">
+                                <a class="bignavbarrightsignin">
+                                    <button class="bignavbarrightsigninbutton" type="button">Sign In</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    
+    
+    
+    
+    
+            <div id="cookiePopup" class="popup">
+                <p>Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern.</p>
+                <button id="acceptButton" class="cookiebutton">Cookies akzeptieren</button>
+            </div>
+
+
+
+
+    
+    <div id="appContent" class="createPage">
+        <div class="createContainer">
+            <div class="createInfo">
+                <div class="createGeneral">
+                    <a href="/Battles.html">
+                        <button type="button" class="createBackButton">Back</button>
+                        
+                    </a>
+                    
+                    <button id="battleCreateComplete" class="createButton" type="button">
+                        <div class="createButtonInfo">
+                            <div class="createButtonInfoContainer">
+                                Create
+                                <div class="createButtonPriceWrapper">
+                                    <div class="createButtonPriceImageWrapper">
+                                        <img src="images/gem.svg">
+                                    </div>
+                                    <span id="create-Button-Price" class="createButtonPrice">0.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="createSettings">
+                    <div class="createMode">
+                        <div>
+                            <div class="createDescription">Players</div>
+                            <select class="createPlayersSelection">
+                                <option value="1v1">1v1</option>
+                                <option value="1v1v1">1v1v1</option>
+                                <option value="1v1v1v1">1v1v1v1</option>
+                                <option value="2v2">2v2</option>
+                            </select>
+                        </div>
+                        <div class="createModeSelection">
+                            <div class="createDescription">Mode</div>
+                            <div class="createModeButtons">
+                                <button id="modeNormalButton" class="createModeButton active" type="button">Normal</button>
+                                <button id="modeGroupButton" class="createModeButton" type="button">Group</button>
+                                <button id="modeTerminalButton" class="createModeButton" type="button">Terminal</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="createSettingsAdvanced">
+                        <div class="createDescription">Options</div>
+                        <div class="createSettingsAdvancedOptions">
+                            <div id="crazy-Switch" class="createSettingsAdvancedToggler">
+                                <div class="createSettingsAdvancedTogglerContainer">
+                                    <buton class="createSettingsToggleButton" id="create-Settings-Crazy-Button" role="switch" type="button" tabindex="0" aria-checked="false">
+                                        <span id="create-Settings-Crazy-Span" class="createSettingsToggleCircle"></span>
+                                    </buton>
+                                    <div id="create-Settings-Crazy-Info" class="createSettingsToggleInfo">Crazy</div>
+                                </div>
+                            </div>
+                            <div id="private-Switch" class="createSettingsAdvancedToggler">
+                                <div class="createSettingsAdvancedTogglerContainer">
+                                    <buton class="createSettingsToggleButton" id="create-Settings-Private-Button" role="switch" type="button" tabindex="0" aria-checked="false">
+                                        <span id="create-Settings-Private-Span" class="createSettingsToggleCircle"></span>
+                                    </buton>
+                                    <div id="create-Settings-Private-Info" class="createSettingsToggleInfo">Private</div>
+                                </div>
+                            </div>
+                            <button id="create-Settings-Options-Button" class="createSettingsOptionsButton" type="button">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                    <path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.488.488 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"></path>
+                                </svg>
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="grid-template-columns:repeat(auto-fill, minmax(12rem, 1fr));grid-auto-rows:minmax(18rem, auto)" class="createdCasesGrid" id="createdCases-Container">
+                <li id="add-Case" class="addCaseField">
+                    <div class="addCaseCrossContainer">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                        </svg>
+                    </div>
+                    <div class="addCaseText">Add Case</div>
+                </li>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="errorscontainer" style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+
+
+
+ 
+<div class="spacer"></div>
+
+<div id="row-top" class="botline"></div>
+<div class="footer">
+    <div class="footerinformation">
+
+        <a>This website is used for private use only and is used to test various features!!!</a>
+        <br><br>
+        <a>Diese Website wird nur für den privaten Gebrauch verwendet und dient zum Testen verschiedener Features!!!</a>
+
+    </div>
+
+</div>
+
+</div>
+
+
+    <div id="headlessui-portal-root">
+        
+    </div>
+    <div id="headlessui-portal-clicker">
+        
+    </div>
+
+
+    <script src="errorhandler.js"></script>
+    <script src="expHandler.js"></script>
+    <script src="header.js"></script>
+    <script src="auth.js"></script>
+    <script src="create.js"></script>
+
+
+</body>
+</html>

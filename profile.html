@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" id="indexhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyessential">
+    <div id="__next">
+
+
+
+        <div id="innerApp" class="innerApp">
+
+            <header class="smallheader">
+                <a href="/">
+                    <video autoplay muted loop playsinline class="headervid" style="filter: brightness(1) contrast(1) saturate(1) hue-rotate(-50.4deg);">
+                        <source src="/videos/gemspin.mov" type="video/mp4; codecs=&quot;hvc1&quot;">
+                        <source src="/videos/gemspin.webm" type="video/webm">
+                    </video>
+                </a>
+                <button id="headersigninbutton" class="headersignin" type="button">Sign In</button>
+                <div class="smallnavtrigger">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+            </header>
+            <header class="bigheader">
+                <div class="biglogo">
+                    <div class="biglogocontainer">
+                        <a class="biglogolink" href="/">
+                            <span class="bigBuxs">BUXS</span>
+                            <video autoplay muted loop playsinline class="biglogovideo" style="filter: brightness(1) contrast(1) saturate(1) hue-rotate(-50.4deg);">
+                                <source src="/videos/gemspin.mov" type="video/mp4; codecs=&quot;hvc1&quot;">
+                                <source src="/videos/gemspin.webm" type="video/webm">
+                            </video>
+                        </a>
+                    </div>
+                </div>
+                <div class="bignavbar">
+                    <div class="bignavbarcontainer">
+                        <div class="bignavbarsplitter" id="bignavbarsplitter">
+                            <div class="bignavbarleft">
+                                <a href="/">
+                                    <button type="button" class="bignavhomebutton">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M208 448V320h96v128h97.6V256H464L256 64 48 256h62.4v192z"></path>
+                                        </svg>
+                                    </button>
+                                </a>
+                                <div id="gamesdropdown" class="gamesdropdown">
+                                    <div class="gamesdropdownbuttoncontainer">
+                                        <button id="gamesdropdownbutton" class="gamesdropdownbutton" type="button">
+                                            Games
+                                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 15 15" height="1em" width="1em" class="gamesdropdownsvg" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.18179 6.18181C4.35753 6.00608 4.64245 6.00608 4.81819 6.18181L7.49999 8.86362L10.1818 6.18181C10.3575 6.00608 10.6424 6.00608 10.8182 6.18181C10.9939 6.35755 10.9939 6.64247 10.8182 6.81821L7.81819 9.81821C7.73379 9.9026 7.61934 9.95001 7.49999 9.95001C7.38064 9.95001 7.26618 9.9026 7.18179 9.81821L4.18179 6.81821C4.00605 6.64247 4.00605 6.35755 4.18179 6.18181Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></div>
+                            </div>
+                            <div class="bignavbarright" id="bignavbarrightnotlogged">
+                                <a class="bignavbarrightsignin">
+                                    <button class="bignavbarrightsigninbutton" type="button">Sign In</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+
+        <div id="cookiePopup" class="popup">
+            <p>Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern.</p>
+            <button id="acceptButton" class="cookiebutton">Cookies akzeptieren</button>
+        </div>
+
+
+        <div id="appContent" class="startpage">
+            <main class="mainpage">
+                <div class="maincontainerprofile">
+                    <div class="profiletopcontainer">
+                        <div class="profiletopleft">
+                            <div class="profiletopleftprofile">
+                                <svg viewBox="0 0 16 18" height="18" width="16" xmlns="http://www.w3.org/2000/svg" class="profiletopleftsvg">
+                                    <path d="M8 0C5.383 0 3.25391 2.1291 3.25391 4.74609C3.25391 7.36309 5.383 9.49219 8 9.49219C10.617 9.49219 12.7461 7.36309 12.7461 4.74609C12.7461 2.1291 10.617 0 8 0Z"></path>
+                                    <path d="M13.9051 12.5928C12.6057 11.2734 10.8831 10.5469 9.05469 10.5469H6.94531C5.11691 10.5469 3.39432 11.2734 2.09495 12.5928C0.801934 13.9057 0.0898438 15.6387 0.0898438 17.4727C0.0898438 17.7639 0.325953 18 0.617188 18H15.3828C15.674 18 15.9102 17.7639 15.9102 17.4727C15.9102 15.6387 15.1981 13.9057 13.9051 12.5928Z"></path>
+                                </svg>
+                                Profile
+                            </div>
+                            <div>-</div>
+                            <div>Account ID: RC-763522</div>
+                        </div>
+                        <div>
+                            <span id="profiletoprightspan" class="profiletoprightspan">0</span>
+                            <span id="profiletoprightspangoal">/ 10 XP</span>
+                        </div>
+                    </div>
+                    <div class="profilecontainer">
+                        <div value="0" class="profileinnertopbar"></div>
+                        <div class="profilecontainerinner">
+                            <div class="profileuppercontainer">
+                                <div class="profileuppercenter">
+                                    <div class="profileuppercenterinner">
+                                        <div class="profileupperpicturecontainer">
+                                            <img alt="Anonymous" src="/images/Anonymous.webp" width="96" height="96" decoding="async" loading="lazy" style="color: transparent;">
+                                        </div>
+                                        <div class="profileupperusernamecontainer">
+                                            <span id="profileupperusername" class="profileupperusername">Anonymous</span>
+                                            <div id="profileupperlevel" class="profileupperlevel">0</div>
+                                        </div>
+                                        <div class="profileupperjoindate">Member since Unknown</div>
+                                    </div>
+                                </div>
+                                <div class="profileupperstretch">
+                                    <div class="profileupperstretchleftcontainer">
+                                        <button id="profileTradeURL" class="profileupperstretchbutton" type="button">
+                                            <div class="profileupperstretchbuttoncontent">Trade URL</div>
+                                        </button>
+                                        <button id="profileSettings" class="profileupperstretchbutton" type="button">
+                                            <div class="profileupperstretchbuttoncontent">Settings</div>
+                                        </button>
+                                    </div>
+                                    <div class="profileupperstretchrightcontainer">
+                                        <a class="profileupperstretchrightbuttoncontainer">
+                                            <button id="profileBalanceHistory" class="profileupperstretchbuttonright" type="button">
+                                                <div class="profileupperstretchbuttoncontent">Balance History</div>
+                                            </button>
+                                        </a>
+                                        <a class="profileupperstretchrightbuttoncontainer">
+                                            <button id="profileGameHistory" class="profileupperstretchbuttonright" type="button">
+                                                <div class="profileupperstretchbuttoncontent">Game History</div>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profilespacer"></div>
+                            <div class="profilestats">
+                                <div class="profilestatcontainer">
+                                    <div class="profilestattitel">deposited</div>
+                                    <div class="profilestatamountcontainer">
+                                        <div class="balanceimgwrapper">
+                                            <img src="/images/gem.svg">
+                                        </div>
+                                        <span id="profilestatdeposited" class="profilestatamount">0.00</span>
+                                    </div>
+                                </div>
+                                <div class="profilestatspacer"></div>
+                                <div class="profilestatcontainer">
+                                    <div class="profilestattitel">withdrawn</div>
+                                    <div class="profilestatamountcontainer">
+                                        <div class="balanceimgwrapper">
+                                            <img src="/images/gem.svg">
+                                        </div>
+                                        <span id="profilestatwithdrawn" class="profilestatamount">0.00</span>
+                                    </div>
+                                </div>
+                                <div class="profilestatspacer"></div>
+                                <div class="profilestatcontainer">
+                                    <div class="profilestattitel">wagered</div>
+                                    <div class="profilestatamountcontainer">
+                                        <div class="balanceimgwrapper">
+                                            <img src="/images/gem.svg">
+                                        </div>
+                                        <span id="profilestatwagered" class="profilestatamount">0.00</span>
+                                    </div>
+                                </div>
+                                <div class="profilestatspacer"></div>
+                                <div class="profilestatcontainer">
+                                    <div class="profilestattitel">profit</div>
+                                    <div class="profilestatamountcontainer">
+                                        <div class="balanceimgwrapper">
+                                            <img src="/images/gem.svg">
+                                        </div>
+                                        <span id="profilestatprofit" class="profilestatamount">0.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        
+    </div>
+    <div id="errorscontainer" style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="spacer"></div>
+
+    <div id="row-top" class="botline"></div>
+    <div class="footer">
+        <div class="footerinformation">
+
+            <a>This website is used for private use only and is used to test various features!!!</a>
+            <br><br>
+            <a>Diese Website wird nur für den privaten Gebrauch verwendet und dient zum Testen verschiedener Features!!!</a>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div id="headlessui-portal-root"></div>
+    <div id="headlessui-portal-clicker">
+        
+    </div>
+
+    <script src="errorhandler.js"></script>
+    <script src="expHandler.js"></script>
+    <script src="header.js"></script>
+    <script src="auth.js"></script>
+    <script src="profile.js"></script>
+</body>
+</html>
