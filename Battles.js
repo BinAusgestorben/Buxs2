@@ -186,7 +186,7 @@ function createBattle(i){
 function battlelinklistener(battlelink, i){
   battlelink.addEventListener("click", function () {
     localStorage.setItem("battlenumber", i);
-    window.location.href = "/userBattle.html";
+    window.location.href = "./userBattle.html";
   });
 }
 
@@ -264,7 +264,7 @@ function displayBattle(i){
     priceImageWrapper.className = "price-image-wrapper";
     battlepriceextraWrapper.appendChild(priceImageWrapper);
     let priceImage = document.createElement("img");
-    priceImage.src = "/images/gem.svg";
+    priceImage.src = "./images/gem.svg";
     priceImageWrapper.appendChild(priceImage);
 
     let priceWrapperAmount = document.createElement("span");
@@ -299,7 +299,7 @@ function displayBattle(i){
     priceImageWrapperview.className = "price-image-wrapper";
     battleviewpriceWrapper.appendChild(priceImageWrapperview);
     let priceImageview = document.createElement("img");
-    priceImageview.src = "/images/gem.svg";
+    priceImageview.src = "./images/gem.svg";
     priceImageWrapperview.appendChild(priceImageview);
 
     let priceWrapperAmountview = document.createElement("span");

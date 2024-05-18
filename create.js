@@ -204,7 +204,7 @@ function uiCreate() {
     dialogTitleInfoTilesTotalPriceImageWrapper.className = "dialogTitleInfoTilesTotalPriceImageWrapper"
     dialogTitleInfoTilesTotalPrice.appendChild(dialogTitleInfoTilesTotalPriceImageWrapper);
     let dialogTitleInfoTilesTotalPriceImage = document.createElement("img");
-    dialogTitleInfoTilesTotalPriceImage.src = "/images/gem.svg";
+    dialogTitleInfoTilesTotalPriceImage.src = "./images/gem.svg";
     dialogTitleInfoTilesTotalPriceImageWrapper.appendChild(dialogTitleInfoTilesTotalPriceImage);
 
     let dialogTitleInfoTilesTotalPriceContainer = document.createElement("span");
@@ -357,7 +357,7 @@ function caseAdder(uiCaseList,i) {
     priceImageWrapper.className = "price-image-wrapper";
     priceWrapper.appendChild(priceImageWrapper);
     let priceImage = document.createElement("img");
-    priceImage.src = "/images/gem.svg";
+    priceImage.src = "./images/gem.svg";
     priceImageWrapper.appendChild(priceImage);
 
     let priceWrapperAmount = document.createElement("span");
@@ -627,7 +627,7 @@ function createdCasesAdd(caseId) {
     priceImageWrapper.className = "price-image-wrapper";
     priceWrapper.appendChild(priceImageWrapper);
     let priceImage = document.createElement("img");
-    priceImage.src = "/images/gem.svg";
+    priceImage.src = "./images/gem.svg";
     priceImageWrapper.appendChild(priceImage);
 
     let priceWrapperAmount = document.createElement("span");

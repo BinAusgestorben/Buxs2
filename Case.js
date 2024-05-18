@@ -567,7 +567,7 @@ function divMaker(casenumber) {
       itemWinpriceWrapper.appendChild(itemWinimageWrapper);
 
       let itemWinImage = document.createElement("img");
-      itemWinImage.src = "images/gem.svg";
+      itemWinImage.src = "./images/gem.svg";
       itemWinimageWrapper.appendChild(itemWinImage);
             
       let itemWinpriceText = document.createTextNode(items[winner][1]);
@@ -821,7 +821,7 @@ function dropcreate(i) {
       dropInformationspricepriceWrapper.appendChild(dropInformationsimageWrapper);
 
       let dropInformationsImage = document.createElement("img");
-      dropInformationsImage.src = "images/gem.svg";
+      dropInformationsImage.src = "./images/gem.svg";
       dropInformationsimageWrapper.appendChild(dropInformationsImage);
             
       let dropInformationspriceText = document.createTextNode(items[i][1]);
@@ -1186,7 +1186,7 @@ function spanchangecostchanger(amount){
   priceimgwrapper.className = "price-image-wrapper";
   document.getElementById("price-wrapper-case").appendChild(priceimgwrapper);
     let priceimgwrapperimg = document.createElement("img");
-    priceimgwrapperimg.src = "images/gem.svg";
+    priceimgwrapperimg.src = "./images/gem.svg";
     priceimgwrapper.appendChild(priceimgwrapperimg);
   let pricewrappercasetext = document.createTextNode((CaseCost*amount).toFixed(2));
   document.getElementById("price-wrapper-case").appendChild(pricewrappercasetext);
